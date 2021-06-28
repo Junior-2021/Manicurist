@@ -25,7 +25,7 @@ header{
 .top_title{
 	font-family: Georgia, serif;
 	color: rgb(255, 219, 123);
-	text-shadow: 3px 3px 9px rgb(255, 219, 123);
+	text-shadow: 1px 2px 3px rgb(37, 0, 41);
 	padding: 40px 20px;
 	font-size: 40px;
 	line-height: 45px;
@@ -41,15 +41,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3e778e9', e
 }
 .top_title:hover{
 	color: rgb(255, 219, 123);
-	transition: all 0.5s ease;
-	text-shadow: 5px 5px 20px rgb(255, 219, 123);
+	text-shadow: 1px 2px 3px rgb(37, 0, 41);
 	font-size: 45px;
-	line-height: 45px;
 	letter-spacing: 20px;
+	transition: all 0.5s ease;
 	background: -moz-linear-gradient(top,  rgba(168,73,163,0.7) 0%, rgba(200,94,199,0.7) 53%, rgba(231,120,233,0.7) 100%);
 background: -webkit-linear-gradient(top,  rgba(168,73,163,0.7) 0%,rgba(200,94,199,0.7) 53%,rgba(231,120,233,0.7) 100%);
 background: linear-gradient(to bottom,  rgba(168,73,163,0.7) 0%,rgba(200,94,199,0.7) 53%,rgba(231,120,233,0.7) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3a849a3', endColorstr='#b3e778e9',GradientType=0 );
+}
+.top_title:active{
+	font-size: 43px;
+	letter-spacing: 17px;
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(229,112,231,0.7) 0%, rgba(200,94,199,0.7) 47%, rgba(168,73,163,0.7) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(229,112,231,0.7) 0%,rgba(200,94,199,0.7) 47%,rgba(168,73,163,0.7) 100%);
+background: radial-gradient(ellipse at center,  rgba(229,112,231,0.7) 0%,rgba(200,94,199,0.7) 47%,rgba(168,73,163,0.7) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3e570e7', endColorstr='#b3a849a3',GradientType=1 );
 }
 
 .dws-menu ul, .dws-menu ol{
@@ -62,12 +69,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3a849a3', e
 .dws-menu > ul li a{
 	display: block;
 	color: rgb(255, 219, 123);
-	text-shadow: 0px 0px 5px rgb(255, 219, 123);
+	text-shadow: 1px 2px 2px rgb(37, 0, 41);
 	padding: 20px;
 	font-size: 14px;
+	letter-spacing: 2px;
 	text-decoration: none;
 	text-transform: uppercase;
-	transition: 0.3s;
+	transition: all 0.3s ease;
 	background: -moz-linear-gradient(top,  rgba(231,120,233,0.7) 0%, rgba(200,94,199,0.7) 47%, rgba(168,73,163,0.7) 100%);
 background: -webkit-linear-gradient(top,  rgba(231,120,233,0.7) 0%,rgba(200,94,199,0.7) 47%,rgba(168,73,163,0.7) 100%);
 background: linear-gradient(to bottom,  rgba(231,120,233,0.7) 0%,rgba(200,94,199,0.7) 47%,rgba(168,73,163,0.7) 100%);
@@ -75,17 +83,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3e778e9', e
 }
 .dws-menu > ul li{
 	position: relative;
-	border-left: 1px solid rgb(37, 0, 41);
+	border: 1px solid rgb(90, 0, 100);
+	border-right: none;
 	white-space: nowrap;
 	flex-grow: 1;
 	text-align: center;
 }
-.dws-menu > ul li:last-child{
-	border-right: 1px solid rgb(37, 0, 41);
-}
 .dws-menu li a:hover{
-	color: rgb(255, 219, 123);
-	text-shadow: 0px 0px 5px rgb(255, 219, 123);
+	font-size: 15px;
+	letter-spacing: 2px;
 	box-shadow: 0px 5px 10px -2px rgb(66, 0, 73);
 	transition: 0.3s;
 	background: -moz-linear-gradient(top,  rgba(168,73,163,0.7) 0%, rgba(200,94,199,0.7) 53%, rgba(231,120,233,0.7) 100%);
@@ -94,11 +100,32 @@ background: linear-gradient(to bottom,  rgba(168,73,163,0.7) 0%,rgba(200,94,199,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3a849a3', endColorstr='#b3e778e9',GradientType=0 );
 }
 .dws-menu li a:active{
-	color: rgb(255, 219, 123);
-	text-shadow: 0px 0px 5px rgb(255, 219, 123);
-
+	font-size: 13px;
+	letter-spacing: 3px;
 	background: -moz-radial-gradient(center, ellipse cover,  rgba(229,112,231,0.7) 0%, rgba(200,94,199,0.7) 47%, rgba(168,73,163,0.7) 100%);
 background: -webkit-radial-gradient(center, ellipse cover,  rgba(229,112,231,0.7) 0%,rgba(200,94,199,0.7) 47%,rgba(168,73,163,0.7) 100%);
 background: radial-gradient(ellipse at center,  rgba(229,112,231,0.7) 0%,rgba(200,94,199,0.7) 47%,rgba(168,73,163,0.7) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3e570e7', endColorstr='#b3a849a3',GradientType=1 );
+}
+
+.dws-menu li ul{
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+.dws-menu li > ul li{
+	border: 1px solid rgb(37, 0, 41);
+}
+.dws-menu li > ul li a{
+	text-transform: none;
+	padding: 10px;
+}
+.dws-menu li > ul li ul{
+	position: absolute;
+	width: 100%;
+	right: -100%;
+	top: -1px;
+}
+.dws-menu li:hover > ul{
+	display: block;
 }
