@@ -28,7 +28,6 @@ body{
 	text-align: left;
 	letter-spacing: 20px;
 	text-shadow: 0px 0px 80px rgb(28, 27, 25);
-	min-height: 420px;
 	transition: all 0.3s ease;
 	background: url(../img/top_title_3680.1680.jpg) center/cover no-repeat;
 }
@@ -156,6 +155,7 @@ img{
 	justify-content: center;
 }
 .vertical_column{
+	display: block;
 	flex: 0 1 33.333%;
 	padding: 20px;
 }
