@@ -22,8 +22,12 @@ body{
 }
 
 .top_title{
-	min-height: 450px;
-		background: url(../img/top_title_3680.1680.jpg) center/cover no-repeat;
+	min-height: 55%;
+	background: url(/img/top_title_3680.1680.jpg) center/cover no-repeat;
+}
+.top_title img{
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px black;
 }
 
 
@@ -139,6 +143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7c8c', end
 	
 }
 h2{
+	padding: 60px 0 0 0;
 	text-align: center;
 }
 p{
@@ -153,27 +158,24 @@ img{
 
 
 .flex_manicure{
-	border: 5px solid #ff1100;
 }
 .vertical_columns{
-	border: 5px solid #1eff00;
 	display: flex;
 	flex-wrap: wrap;
 }
 .vertical_column{
-	border: 5px solid #ffff00;
+	padding: 5px;
 	display: block;
 	min-width: 230px;
 	flex: 0 0 33.333%;
 }
 .vertical_subtitle{
-	border: 5px solid #0026ff;
 }
 .vertical_img img{
 	max-width: 100%;
 }
 .vertical_text p{
-	border: 5px solid #e100ff;
+	padding: 5px;
 	text-align: justify;
 }
 
