@@ -118,6 +118,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7c8c', end
 	letter-spacing: 0.08em;
 	word-spacing: 0.2em;
 }
+@media (max-width:1200px) {
+	.all_content{
+		max-width: 970px;
+	}
+}
+@media (max-width:992px) {
+	.all_content{
+		max-width: 750px;
+	}
+}
+@media (max-width:767px) {
+	.all_content{
+		max-width: none;
+	}
+}
+
+
 .all_content div{
 	margin: 5px 0 5px 0;
 	padding: 10px 0 5px 0;
