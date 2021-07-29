@@ -135,40 +135,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7c8c', end
 }
 
 
-.all_content div{
-	margin: 5px 0 5px 0;
-	padding: 10px 0 5px 0;
+.all_content {
+	
 }
 h2{
 	text-align: center;
-	padding: 5px 0 5px 0;
 }
 p{
 	text-indent: 2em;
-	padding: 5px 0 5px 0;
 }
 img{
-	border-radius: 3%;
+	border-radius: 5%;
 }
 
+
+
+
+
 .flex_manicure{
-	min-width: 100%;
+	border: 5px solid #ff1100;
 }
 .vertical_columns{
+	border: 5px solid #1eff00;
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
 }
 .vertical_column{
+	border: 5px solid #ffff00;
 	display: block;
-	flex: 0 1 33.333%;
-	padding: 20px;
+	min-width: 230px;
+	flex: 0 0 33.333%;
+}
+.vertical_subtitle{
+	border: 5px solid #0026ff;
 }
 .vertical_img img{
 	max-width: 100%;
-	padding: 5px;
 }
 .vertical_text p{
-	padding: 10px;
+	border: 5px solid #e100ff;
 	text-align: justify;
 }
 
