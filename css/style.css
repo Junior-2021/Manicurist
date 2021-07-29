@@ -50,7 +50,6 @@ body{
 }
 .dws-menu > ul{
 	display: flex;
-	min-width: 768px;
 	justify-content: center;
 }
 .dws-menu > ul li a{
@@ -125,10 +124,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7c8c', end
 
 
 .all_content{
-	min-width: 960px;
-	max-width: 1250px;
+	max-width: 1200px;
+	padding: 0 15px;
 	margin: 0 auto;
-	padding: 25px;
 	font-size: 18px;
 	line-height: 1.5em;
 	letter-spacing: 0.08em;
@@ -151,7 +149,7 @@ img{
 }
 
 .flex_manicure{
-	max-width: 100%;
+	min-width: 100%;
 }
 .vertical_columns{
 	display: flex;
@@ -187,6 +185,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9dce4', end
 	text-align: center;
 	letter-spacing: 0.3em;
 	word-spacing: 0.3em;
-	min-width: 400px;
-	max-width: 90%;
 }
