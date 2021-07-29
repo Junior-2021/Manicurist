@@ -136,7 +136,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7c8c', end
 }
 .all_content div{
 	margin: 5px 0 5px 0;
-	padding: 50px 0 5px 0;
+	padding: 10px 0 5px 0;
 }
 h2{
 	text-align: center;
@@ -147,10 +147,28 @@ p{
 	padding: 5px 0 5px 0;
 }
 img{
-	max-width: 33%;
+	border-radius: 3%;
 }
 
-
+.flex_manicure{
+	max-width: 100%;
+}
+.vertical_columns{
+	display: flex;
+	justify-content: center;
+}
+.vertical_column{
+	flex: 0 1 33.333%;
+	padding: 20px;
+}
+.vertical_img img{
+	max-width: 100%;
+	padding: 5px;
+}
+.vertical_text p{
+	padding: 10px;
+	text-align: justify;
+}
 
 
 
