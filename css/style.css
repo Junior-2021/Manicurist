@@ -22,23 +22,10 @@ body{
 }
 
 .top_title{
-	padding: 80px 20px 40px 80px;
-	font-size: 60px;
-	line-height: 80px;
-	text-align: left;
-	letter-spacing: 20px;
-	text-shadow: 0px 0px 80px rgb(28, 27, 25);
-	transition: all 0.3s ease;
-	background: url(../img/top_title_3680.1680.jpg) center/cover no-repeat;
+	min-height: 450px;
+		background: url(../img/top_title_3680.1680.jpg) center/cover no-repeat;
 }
-.top_title:hover{
-	padding: 80px 20px 40px 50px;
-	font-size: 66px;
-	line-height: 88px;
-	letter-spacing: 22px;
-	text-shadow: 1px 1px 1px rgb(28, 27, 25);
-	transition: all 0.3s ease;
-}
+
 
 .dws-menu{
 	position: sticky;
