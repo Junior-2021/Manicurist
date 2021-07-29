@@ -23,7 +23,7 @@ body{
 
 .top_title{
 	min-height: 55%;
-	background: url(/img/top_title_3680.1680.jpg) center/cover no-repeat;
+	background: url('/img/top_title_3680.1680.jpg') center/cover no-repeat;
 }
 .top_title img{
 	border-radius: 50%;
