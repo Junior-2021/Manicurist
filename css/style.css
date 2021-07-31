@@ -21,15 +21,18 @@ body{
 	color: rgb(33, 27, 37);
 }
 
+
+
 .top_title{
 	min-height: 55%;
 	background: url('../img/top_title_3680.1680.jpg') center/cover no-repeat;
 }
 .top_title img{
-	border: 10px solid transparent;
+	border: 5px solid transparent;
 	border-radius: 50%;
-	box-shadow: 0px 0px 50px black;
+	box-shadow: 0px 0px 40px black;
 }
+
 
 
 .dws-menu{
@@ -142,7 +145,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7c8c', end
 
 
 .all_content {
-	
 }
 h2{
 	padding: 60px 0 0 0;
@@ -152,32 +154,43 @@ p{
 	text-indent: 2em;
 }
 img{
-	border-radius: 5%;
+	box-shadow: 0px 0px 20px rgb(107, 124, 140);
+	border-radius: 1% 10%;
 }
 
 
 
-.flex_manicure{
-}
-.vertical_columns{
+.three_vertical_columns{
 	display: flex;
 	flex-wrap: wrap;
 }
-.vertical_column{
+.vertical_column_3{
 	padding: 5px;
 	display: block;
 	flex: 1 1 33.333%;
 }
 .vertical_subtitle{
+	padding: 10px 0;
 }
 .vertical_img img{
 	max-width: 100%;
+	margin: 10px 0;
 }
 .vertical_text p{
-	padding: 5px;
+	padding: 10px 10px 0 10px;
 	text-align: justify;
 }
 
+
+
+.too_vertical_columns{
+	display: flex;
+	flex-wrap: wrap;
+}
+.vertical_column_2{
+	padding: 5px;
+	display: block;
+	flex: 1 1 50%;
 
 
 footer{
