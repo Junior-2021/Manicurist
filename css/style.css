@@ -127,6 +127,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b7c8c', end
 	word-spacing: 0.2em;
 	text-align: justify;
 }
+
+
+
 @media (max-width:1200px) {
 	.all_content{
 		max-width: 970px;
@@ -152,14 +155,14 @@ div .id{
 }
 h2{
 	text-align: center;
-	box-shadow: 0px 0px 20px rgb(107, 124, 140);
+	box-shadow: 0px -2px 20px rgb(107, 124, 140);
 	border-radius: 0 15px 15px 15px;
 	padding: 15px;
 	margin: 10px 0;
 }
 p{
 	text-indent: 2em;
-	box-shadow: 0px 0px 20px rgb(107, 124, 140);
+	box-shadow: 0px 2px 20px rgb(107, 124, 140);
 	border-radius: 0 15px 15px 15px;
 	padding: 15px;
 	margin: 10px 0;
@@ -171,42 +174,27 @@ img{
 
 
 
-.three_vertical_columns{
+.three_vertical_columns, .too_vertical_columns{
 	display: flex;
 	flex-wrap: wrap;
+	align-items: stretch;
 }
 .vertical_column_3{
 	padding: 5px;
-	display: block;
 	flex: 1 1 33.333%;
-}
-.vertical_subtitle{
-	text-align: justify;
-}
-.vertical_img img{
-	max-width: 100%;
-	transition: 0.3s;
-}
-
-.vertical_img img:hover{
-	transition: 0.3s;
-	border-radius:  15px 15px 15px 15px;
-}
-
-.vertical_text p{
-}
-
-
-
-.too_vertical_columns{
-	display: flex;
-	flex-wrap: wrap;
 }
 .vertical_column_2{
 	padding: 5px;
 	display: block;
 	flex: 1 1 50%;
-
+}
+.vertical_subtitle{
+}
+.vertical_img img{
+	max-width: 100%;
+}
+.vertical_text p{
+}
 
 footer{
 	background: rgb(217, 220, 228);
